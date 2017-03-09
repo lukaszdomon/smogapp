@@ -1,8 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 @import url(http://fonts.googleapis.com/css?family=Baloo+Bhaina);
+@import url(http://fonts.googleapis.com/css?family=Mootserrat);
 
 body {
-background-color: black;
+background: url("https://images84.fotosik.pl/419/bd2905267324f533.jpg");
+background-size: 100%;
 }
 
 .stations {
@@ -23,7 +25,7 @@ margin-right: auto;
 }
 
 h2 {
-font-family: "Baloo Bhaina";
+font-family: "Open Sans";
 }
 
 .row {
