@@ -3,30 +3,37 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-   <title>Apka smogowa</title>
-    
+   	<title>Apka smogowa</title>
+
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
-    
+ 
+
   </head>
 
   <body>
-  	
-    
+
+
 <div class="container">
 
 <div class="row center">
       <div class="col-md-4">
       <h2>Aleja Krasińskiego</h2>
-        <div id="station1" class="stations" data-toggle="popover" data-trigger="hover" title="Parametry" data-content="PM10: PM2.5: NO2: CO:    ">
+        <div id="station1" class="stations">
           <h3></h3>
+          <div class="pop-title">Parametry</div>
+          <div class="pop-content">
+            PM10:<br>
+            PM2.5:<br>
+            NO2:<br>
+            CO:
+          </div>
         </div>
       </div>
       <div class="col-md-4">
         <h2>Bujaka</h2>
         <div id="station2" class="stations">
           <h3></h3>
-
         </div>
       </div>
       <div class="col-md-4">
@@ -76,6 +83,7 @@
 
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="main.js"></script>
+   	<script src="main.js"></script>
+
   </body>
 </html>
