@@ -1,13 +1,13 @@
 $(function () {
-      $('#station1').popover({
+      $('.stations').popover({
         html: true,
         placement: "right",
         trigger: "hover",
         title: function () {
-            return $("#station1 .pop-title").html();
+            return $(this).find('.pop-title').html();
         },
         content: function () {
-            return $("#station1 .pop-content").html();
+            return $(this).find('.pop-content').html();
         }
       });
     });
