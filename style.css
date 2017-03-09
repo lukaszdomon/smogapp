@@ -1,0 +1,49 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Baloo+Bhaina);
+
+body {
+	background-color: black;
+	color: red;
+}
+
+.stations {
+	height: 200px;
+	width: 200px;
+	background-color: white;
+	margin: 50px;
+	float: left;
+	border-radius: 50%;
+	text-align: center;
+	padding: auto;
+
+}
+
+.center {
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h2 {
+	font-family: "Baloo Bhaina";
+}
+
+h3 {
+	margin-top: 100px;
+}
+
+.row {
+	position: relative;
+  	margin: 0 auto;
+}
+
+.col-md-4 {
+	text-align: center;
+}
+
+.col-md-4 h2 {
+	padding: 5px;
+	text-align: center;
+}
+
+/*wysrodkowanie kolek wzgledem napisow*/
