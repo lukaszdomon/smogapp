@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Smog App</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">Smog App</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Legenda</a></li>
+        <li><a href="#">Kontakt</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+
+<div class="container">
+  <br>
+  <form class="well form-horizontal" action=" " method="post" id="contact_form">
+  <fieldset>
+    <legend>Formularz kontaktowy</legend>
+
+    <div class="form-group">
+      <label class="col-md-4 control-label">Imię</label>
+      <div class="col-md-4 inputGroupContainer">
+        <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+        <input name="imie" placeholder="Imie" class="form-control" type="text">
+        </div>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="col-md-4 control-label">Email</label>
+      <div class="col-md-4 inputGroupContainer">
+        <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+        <input name="email" placeholder="Email" class="form-control" type="text">
+        </div>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="col-md-4 control-label">Miasto</label>
+      <div class="col-md-4 inputGroupContainer">
+        <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+        <input name="miasto" placeholder="Miasto" class="form-control" type="text">
+        </div>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="col-md-4 control-label">Województwo</label>
+      <div class="col-md-4 selectContainer">
+      <div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+      <select name="state" class="form-control selectpicker">
+        <option value=" ">Proszę wybrać województwo</option>
+          <option>Małopolskie</option>
+          <option>Śląskie</option>
+          <option>Opolskie</option>
+          <option>Dolnośląskie</option>
+          <option>Podkarpackie</option>
+          <option>Zachodniopomorskie</option>
+          <option>Pomorskie</option>
+          <option>Warmińsko-Mazurskie</option>
+          <option>Podlaskie</option>
+          <option>Lubelskie</option>
+          <option>Mazowieckie</option>
+          <option>Łódzkie</option>
+          <option>Świętokrzyskie</option>
+          <option>Lubuskie</option>
+          <option>Kujawsko-Pomorskie</option>
+          <option>Wielkopolskie</option>
+      </select>
+      </div>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="col-md-4 control-label">Opis</label>
+      <div class="col-md-4 inputGroupContainer">
+      <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+        <textarea class="form-control" name="comment" placeholder="Ty wpisz swoją wiadomość"></textarea>
+      </div>
+      </div>
+    </div>
+
+    <!-- Wiadomość: sukces wysłania -->
+
+    <div class="alert alert-success" role="alert" id="success_message">Wiadomość wysłana<i class="glyphicon glyphicon-thumbs-up"></i>Dziękuję. Udało Ci się poprawnie wysłać wiadomość. Odpowiem na nią w jak najkrótszym czasie</div>
+
+    <!-- Przycisk: Wyślij -->
+
+    <div class="form-group">
+      <label class="col-md-4 control-label"></label>
+      <div class="col-md-4">
+        <button type="submit" class="btn btn-warning">Wyślij <span class="glyphicon glyphicon-send"></span></button>
+      </div>
+    </div>
+
+
+  </fieldset>
+
+
+
+</div>
+
+  
+    
+<footer class="container-fluid text-center">
+ 
+  
+</footer>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
