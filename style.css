@@ -188,3 +188,41 @@ color: red;
 #success_message{
   display: none;
 }
+
+/*Table*/
+
+.very-good {
+  background-color: #57B108;
+}
+
+.good {
+  background-color: #B0DD10;
+}
+
+.moderate {
+  background-color: #FFD911;
+}
+
+.unhealthy {
+  background-color: #E58100;
+}
+
+.very-unhealthy {
+  background-color: #E50000;
+}
+
+.hazardous {
+  background-color: #990000;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/*
+.gora {
+  background-color: black;
+  color: white;
+}
+*/
