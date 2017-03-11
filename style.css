@@ -1,15 +1,138 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
-@import url(http://fonts.googleapis.com/css?family=Baloo+Bhaina);
-@import url(http://fonts.googleapis.com/css?family=Mootserrat);
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+ 
+    /* Set black background color, white text and some padding */
+
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+/*
+    .circle1 {
+  width: 30px;
+  height: 30px;
+  background-color: #57B108;
+  border-radius: 100%;
+  margin: 10px 50px;
+  float: left;
+  
+}
+
+
+.circle1 span {
+  position: relative;
+  left: 50px;
+}
+
+.circle2 {
+  width: 30px;
+  height: 30px;
+  background-color: #B0DD10;
+  border-radius: 100%;
+  margin: 10px 75px;
+  float: left;
+
+}
+
+.circle2 span {
+  position: relative;
+  left: 50px;
+}
+
+.circle3 {
+  width: 30px;
+  height: 30px;
+  background-color: #B0DD10;
+  border-radius: 100%;
+  margin: 10px 90px;
+  float: left;
+
+}
+
+.circle3 span {
+  position: relative;
+  left: 50px;
+}
+
+.circle4 {
+  width: 30px;
+  height: 30px;
+  background-color: #B0DD10;
+  border-radius: 100%;
+  margin: 10px 100px;
+  float: left;
+
+}
+
+.circle4 span {
+  position: relative;
+  left: 60px;
+}
+
+.circle5 {
+  width: 30px;
+  height: 30px;
+  background-color: #B0DD10;
+  border-radius: 100%;
+  margin: 10px 110px;
+  float: left;
+}
+
+.circle5 span {
+  position: relative;
+  left: 50px;
+}
+.circle6 {
+  width: 30px;
+  height: 30px;
+  background-color: #B0DD10;
+  border-radius: 100%;
+  margin: 10px 120px;
+  float: left;
+
+}
+
+.circle6 span {
+  position: relative;
+  left: 50px;
+}
+*/
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
 
 body {
 background: url("https://images84.fotosik.pl/419/bd2905267324f533.jpg");
-background-size: 100%;
+
 }
 
 .stations {
-height: 200px;
-width: 200px;
+height: 150px;
+width: 150px;
 background-color: white;
 border-radius: 50%;
 text-align: center;
@@ -52,10 +175,16 @@ color: red;
   display: none;
 }
 .popover-title {
-    color: blue;
+    color: black;
     font-size: 16px;
 }
 .popover-content {
     color: red;
     font-size: 14px;
+}
+
+/*Contact*/
+
+#success_message{
+  display: none;
 }
