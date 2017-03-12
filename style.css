@@ -125,6 +125,13 @@
       .row.content {height:auto;} 
     }
 
+@import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Rubik:400,500);
+
+
+
 body {
 background: url("https://images84.fotosik.pl/419/bd2905267324f533.jpg");
 
@@ -147,8 +154,8 @@ margin-left: auto;
 margin-right: auto;
 }
 
-h2 {
-font-family: "Open Sans";
+.nazwa-stacji h2 {
+font-family: "Rubik";
 }
 
 .row {
@@ -193,26 +200,32 @@ color: red;
 
 .very-good {
   background-color: #57B108;
+  color: white;
 }
 
 .good {
   background-color: #B0DD10;
+  color: white;
 }
 
 .moderate {
   background-color: #FFD911;
+  color: white;
 }
 
 .unhealthy {
   background-color: #E58100;
+  color: white;
 }
 
 .very-unhealthy {
   background-color: #E50000;
+  color: white;
 }
 
 .hazardous {
   background-color: #990000;
+  color: white;
 }
 
 a {
@@ -226,3 +239,15 @@ a {
   color: white;
 }
 */
+
+.navbar-brand a {
+  font-family: "Gloria Hallelujah",
+}
+
+.sklad {
+  border: 3px solid black;
+  border-radius: 5px;
+  margin: 20px;
+  text-align: center;
+  background-color: white;
+}
