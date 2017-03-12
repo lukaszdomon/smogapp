@@ -22,10 +22,11 @@ $(document).ready(function() {
         },
 
         fields: {
-            imie: {
+            name: {
                 validators: {
                     stringLength: {
                         min: 2,
+                        message: 'Imię powinno posiadać co najmniej 2 znaki'
                     },
 
                     notEmpty: {
@@ -43,10 +44,11 @@ $(document).ready(function() {
                     }
                 }
             },
-            miasto: {
+            city: {
                 validators: {
                     stringLength: {
-                        min: 4,
+                        min: 3,
+                        message: 'Nazwa miasta musi mieć co najmniej 3 znaki'
                     },
                     notEmpty: {
                         message: 'Proszę wpisz swoje miasto'
@@ -60,7 +62,7 @@ $(document).ready(function() {
                     }
                 }
             },
-            comment: {
+            message: {
                 validators: {
                     stringLength: {
                         min: 10,
